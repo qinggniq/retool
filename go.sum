@@ -1,0 +1,4 @@
+github.com/Masterminds/semver v0.0.0-20170328002757-0a299beba2ae h1:CBaXTU5HbcAooJjj37FAYypb2QPVlS+2zL6fn/NShPk=
+github.com/Masterminds/semver v0.0.0-20170328002757-0a299beba2ae/go.mod h1:MB6lktGJrhw8PrUyiEoblNEGEQ+RzHPF078ddwwvV3Y=
+github.com/pkg/errors v0.0.0-20161002052512-839d9e913e06 h1:gKQKvMjnwDvwtZxyd2HDEDNNMRkjbPN1V89eOLqovSU=
+github.com/pkg/errors v0.0.0-20161002052512-839d9e913e06/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

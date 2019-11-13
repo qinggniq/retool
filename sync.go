@@ -1,6 +1,5 @@
 package main
 
-import "os"
 
 func (s spec) sync() {
 	m := getManifest()
