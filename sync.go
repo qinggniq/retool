@@ -6,7 +6,8 @@ func (s spec) sync() {
 	m := getManifest()
 	if m.outOfDate(s.Tools) {
 		// Delete existing tools directory
-		err := os.RemoveAll(toolDirPath)
+		var err error
+		//err := os.RemoveAll(toolDirPath)
 		if err != nil {
 			fatalExec("failed to remove _tools ", err)
 		}
