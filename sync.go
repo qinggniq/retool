@@ -1,12 +1,13 @@
 package main
 
+import "fmt"
 
 func (s spec) sync() {
 	m := getManifest()
 	if m.outOfDate(s.Tools) {
 		// Delete existing tools directory
 		var err error
-		//err := os.RemoveAll(toolDirPath)
+		fmt.Printf("don't removeDir\n")
 		if err != nil {
 			fatalExec("failed to remove _tools ", err)
 		}
